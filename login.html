@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Login - Alumni System</title>
+    <title>Login - Alumni Management System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Login</h1>
+    <header>
+        <h1>Alumni Management System</h1>
+    </header>
 
-    <a href="index.html">Home</a> |
-    <a href="login.html">Login</a> |
-    <a href="register.html">Register</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
 
-    <h2>Login to your account</h2>
+    <main>
 
-    <form>
+        <h2>Login</h2>
+
+        <form>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password">
+
+            <input type="submit" value="Login">
+
+        </form>
+
         <p>
-            Email:
-            <input type="email" name="email">
+            Don't have an account?
+            <a href="register.html">Register here</a>
         </p>
 
-        <p>
-            Password:
-            <input type="password" name="password">
-        </p>
+    </main>
 
-        <input type="submit" value="Login">
-    </form>
-
-    <p>Don't have an account?</p>
-    <a href="register.html">Create an account</a>
+    <footer>
+        <p>Alumni Management System &copy; 2026</p>
+    </footer>
 
 </body>
+
 </html>
